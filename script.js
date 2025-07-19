@@ -7,6 +7,7 @@ const profile = {
   summary: "Passionate data engineer with a focus on building scalable, real-time data pipelines and cloud-native solutions. Experienced in AWS services, Python automation, and GenAI integrations. I thrive on solving complex problems with elegant solutions and enjoy exploring how data intersects with everyday life.",
   skills: {
       "Programming": ["Python", "SQL"],
+      "Backend Development": ["Django", "FastAPI"],
       "AWS Cloud Services": ["Lambda", "S3", "Glue", "Step Functions", "DynamoDB", "CloudFormation", "SQS", "EventBridge"],
       "Data Engineering": ["ETL", "Batch Processing", "Data Quality Checks"],
       "DevOps & Automation": ["GitHub Actions", "AWS CloudFormation", "Conflict Resolution"],
