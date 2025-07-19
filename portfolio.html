@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dilli's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+ <header>
+  <div class="profile-container">
+    <img src="profile.jpg" alt="Dilli's Photo" class="profile-pic" />
+    <div class="intro">
+      <h1 id="name">Dilli Karuru</h1>
+      <p id="tagline">Cloud Engineer | Data Enthusiast | Innovator</p>
+      <div class="contact-icons">
+        <a id="email" href="mailto:dilli@example.com"><i class="fas fa-envelope"></i></a>
+        <a id="linkedin" href="https://linkedin.com/in/dilli-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a id="github" href="https://github.com/dilli-profile" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <nav>
+    <a href="#summary"><i class="fas fa-user"></i> Summary</a>
+    <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+    <a href="#skills"><i class="fas fa-tools"></i> Skills</a>
+    <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+    <a href="#awards"><i class="fas fa-award"></i> Awards</a>
+    <a href="#projects"><i class="fas fa-diagram-project"></i> Projects</a>
+  </nav>
+
+  <main>
+    <section id="summary"><h2><i class="fas fa-user"></i> Summary</h2><div class="card" id="summary-content"></div></section>
+    <section id="experience"><h2><i class="fas fa-briefcase"></i> Experience</h2><div class="card" id="experience-list"></div></section>
+    <section id="skills"><h2><i class="fas fa-tools"></i> Skills</h2><div class="card tags" id="skills-list"></div></section>
+    <section id="education"><h2><i class="fas fa-graduation-cap"></i> Education</h2><div class="card" id="education-info"></div></section>
+    <section id="awards">
+        <h2><i class="fas fa-award"></i> Awards & Achievements</h2>
+        <div class="card" id="awards-list"></div>
+    </section>
+
+    <section id="projects">
+        <h2><i class="fas fa-diagram-project"></i> Projects</h2>
+        <div class="card projects-wrap" id="projects-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dilli. Built with 💻 and ☕</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
