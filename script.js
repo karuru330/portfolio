@@ -50,7 +50,7 @@ const profile = {
                 "Tracked ingestion and metadata using DynamoDB for document-level monitoring",
                 "Orchestrated pipeline scheduling via EventBridge for unstructured flows",
                 "Implemented structured data workflows using Step Functions for multi-stage transformations",
-                "Deployed data pipelines infrastructure and code using CloudFormation templates, with automated CI/CD via GitHub Actions",
+                "Developed & Deployed data pipeline's infrastructure and code using CloudFormation templates, with automated CI/CD via GitHub Actions",
                 "Integrated Clien'ts GenAI platform for document parsing and LLM-based query handling"
               ]
             }
@@ -71,8 +71,7 @@ const profile = {
                   "Integrated AWS SES with glue job to send error report summary email to source team automatically.",
                   "Analyzed and fixed production issues reported by downstream teams.",
                   "Utilized AWS cloudwatch to analyze the logs.",
-                  "Utilized AWS Athena to query the data available in s3 buckets.",
-                  "Created deployed end-to-end data pipeline using AWS Cloudformation template through GitHub Actions.",
+                  "Utilized AWS Athena to query the data available in s3 buckets."
                   ]
               },
               {
@@ -82,17 +81,17 @@ const profile = {
                   start: "Feb 2021",
                   end: "Oct 2023",
                   summary: [
-                      "Acquired hands-on experience in creating and scheduling CI/CD pipelines using GitHub on Azure cloud",
-                      "Automated below mentioned tasks using Python scripting and deployed the same using Azure CI/CD pipelines to run automatically on daily basis. Also, integrated the sendgrid email API to send the notification email to respective stakeholders.",
-                      "i) Validation of the data quality and redundancy in MySQL database.",
-                      "ii) Application sanity such as checking Database accessibility, APIs response time and failure rate.",
-                      "iii) Synchronization of data in two different No SQL databases based on the data received in azure blob storage from data warehouse team.",
-                      "Developed REST APIs using Django to collect data from different retailer websites using web scrapping to compare details of products such as price, features, customer feedback etc to derive meaningful insights.",
-                      "Utilized tools such as Grafana, Azure application insights for proactive monitoring and log analysis.",
-                      "Utilized and acquired experience of working with Git, GitHub for version control.",
-                      "Worked on multiple data loading , data clean-up activities in MySQL database.",
-                      "Improved problem solving and analytical skills by analyzing the production issues and resolving them within the SLA.",
-                      "Collaborated with different teams within the project and helped them to solve critical production issues."
+                       "Automated validation of data quality and redundancy in MySQL database using python scripting.",
+                       "Automated 95% of manual tasks of TNRL(TataNeu Rewards Leaugue) program using python scripting, resulting in improved productivity.",
+                       "Developed python scripts to perform sanity such as Database accessibility, APIs response time and failure rate, microservices availability etc which helps team to perform sanity check before and after any deployment. Automated Synchronization of data in two different No SQL databases based on the data received in azure blob storage from data warehouse team using python scripting.",
+                       "Deployed all the python scripts on Azure using Azure pipelines and scheduled to run on daily basis.",
+                       "Integrated all the azure pipelines with sendgrid API to send automatic summary report to all the required stakeholders.",
+                       "Developed REST APIs using Django to collect data from different retailer websites using web scrapping to compare details of products such as price, features, customer feedback etc to derive meaningful insights.",
+                       "Utilized tools such as Grafana, Azure application insights for proactive monitoring and log analysis.",
+                       "Utilized and acquired experience of working with Git, GitHub for version control.",  
+                       "Improved problem solving and analytical skills by analyzing the production issues and resolving them within the SLA.", 
+                       "Collaborated with different teams within the project and helped them to solve critical production issues.",
+                       "Worked on multiple data loading, data clean-up activities in MySQL database."
                   ]
               }
           ]
